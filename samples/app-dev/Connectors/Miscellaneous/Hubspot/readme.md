@@ -1,4 +1,4 @@
-# Hubspot Sample demonstrating how to implement the CRUD activities on Hubspot Leads object.
+# Hubspot Sample demonstrating how to implement the CRUD activities on Hubspot Deals object.
 
 
 ## Description
