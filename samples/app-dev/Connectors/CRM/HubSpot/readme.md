@@ -1,16 +1,16 @@
-# Hubspot Sample demonstrating how to implement the CRUD activities on Hubspot Deals object.
+# HubSpot Sample demonstrating how to implement the CRUD activities on HubSpot Deals object.
 
 
 ## Description
 
-This sample demonstrate how we can create and use Hubspot CRUD activities on Deals object such as Create, Update, Query and Delete.
-Hubspot app bascially contains 4 activities. The main purpose of these activitie are to  perform CRUD activities on various Hubspot objects like Deals, companies, contacts etc.
+This sample demonstrate how we can create and use HubSpot CRUD activities on Deals object such as Create, Update, Query and Delete.
+HubSpot app bascially contains 4 activities. The main purpose of these activitie are to  perform CRUD activities on various HubSpot objects like Deals, companies, contacts etc.
 
 ## Prerequisites
 
-1. You need to make sure that you have a active Hubspot account and basic understanding of Hubspot features and activities.
-2. To perform actions using your Hubspot account you need to have Hubspot connection details such as Client ID and Client Secret.
-3. You can find Client ID and Client secret from your Hubspot account, for more details on how to create Connection and other Hubspot features, please refer this TCI documentation.
+1. You need to make sure that you have a active HubSpot account and basic understanding of HubSpot features and activities.
+2. To perform actions using your HubSpot account you need to have HubSpot connection details such as Client ID and Client Secret.
+3. You can find Client ID and Client secret from your HubSpot account, for more details on how to create Connection and other HubSpot features, please refer this TCI documentation.
 
 ## Import the sample
 
@@ -49,21 +49,20 @@ When you import the app you need to re-enter the client id and client secret and
 ![The connection](../../../import-screenshots/hubspot_ss/conn.png)
 
 In the connection, note that,
-1. Name - 	Enter a name for this Hubspot connection
+1. Name - 	Enter a name for this HubSpot connection
 2. Description(Optional) - Enter a short description for the connection
-3. Client ID -	The client ID used to connect to Hubspot REST API, will be available in your Hubspot account.
-4. Client Secret -	The client secret used to generate an access token, will be available in your Hubspot account.
+3. Client ID -	The client ID used to connect to HubSpot REST API, will be available in your HubSpot account.
+4. Client Secret -	The client secret used to generate an access token, will be available in your HubSpot account.
 
 ### The Flow
 
-If you go inside the app, you can see in flow we have 4 activities (Create, Update, Query and Delete)  that perform some operations on various Hubspot objects like Deals, Companies and Contacts.
+If you go inside the app, you can see in flow we have 4 activities (Create, Update, Query and Delete)  that perform some operations on various HubSpot objects like Deals, Companies and Contacts.
 In this sample we are using Deals object to perform CRUD operation.
-Also in flow we have used Log Message and sleep activity for app to work as expected.
 
 ![Sample Response](../../../import-screenshots/hubspot_ss/flow.png)
 
 
-### Hubspot Create
+### HubSpot Create
 
 HubSpot Create activity adds an object to the database of your organization.
 You can use this activity to create Deals, Contacts and companies objects.
@@ -75,7 +74,7 @@ In input tab, provide the details like dealname, Deal amount etc.
 ![Sample Response](../../../import-screenshots/hubspot_ss/create2.png)
 
 
-### Hubspot Update
+### HubSpot Update
 
 HubSpot Update activity updates an existing record of the specified object.
 
@@ -89,7 +88,7 @@ In Input tab, provide data to be updated in body section.
 ![Sample Response](../../../import-screenshots/hubspot_ss/update3.png)
 
 
-### Hubspot Query
+### HubSpot Query
 
 HubSpot Query activity runs the query for the specified object and returns the data that matches the criteria in the query.
 
@@ -99,7 +98,7 @@ On the Settings tab, you can define the HubSpot connection and the type of objec
 In input tab, provide the Deal id to be retrieved, you can also use the previous activity output to provide the Deal ID.
 ![Sample Response](../../../import-screenshots/hubspot_ss/query2.png)
 
-### Hubspot Delete
+### HubSpot Delete
 
 HubSpot Delete activity is used to delete a record in the HubSpot database. It deletes a record of the specified object from the database of your organization
 
@@ -112,7 +111,7 @@ In input tab, provide the Deal id to be deleted, you can also use the previous a
 
 ### Run the application
 For running the application, first you have to push the app and then scale up the app.
-Then after sometime you can see your app in running status.l
+Then after sometime you can see your app in running status.
 
 ![Sample Response](../../../import-screenshots/hubspot_ss/push1.png)
 ![Sample Response](../../../import-screenshots/hubspot_ss/push2.png)
